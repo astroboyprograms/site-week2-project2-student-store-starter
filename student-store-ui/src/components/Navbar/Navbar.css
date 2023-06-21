@@ -1,0 +1,166 @@
+:root {
+    --side-padding: 40px;
+    --content-width: 1100px;
+    --dark-blue: #2c4047;
+    --bright-green: #00c385;
+    --pure-white: #fff;
+    --grey-bg: #f7f7f7;
+    --accent-orange: #ff9017;
+    --bright-red: #fe3210;
+    --muted: #969696;
+    --font-dark: #212121;
+    --font-light: #5b5b5b;
+    --border-color: #e4e4e4;
+    --star-color-filled: #e5a800;
+    --star-color-empty: #cbd4e6;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--dark-blue);
+    color: var(--pure-white);
+    padding: 15px var(--side-padding);
+  }
+
+  .navbar a {
+    color: #fff;
+    font-weight: 500
+}
+
+.navbar .content {
+    max-width: var(--content-width);
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.navbar .content .logo {
+    width: 100px;
+    margin-right: 50px
+}
+
+.navbar .content .socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    margin-right: 50px
+}
+
+.navbar .content .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-left: auto;
+    flex: 1;
+    max-width: 650px
+} 
+
+
+  
+  
+ 
+  /* .navbar .content {
+    max-width: var(--content-width);
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+  
+
+
+  .navbar .content .logo {
+    width: 100px;
+    margin-right: 50px
+}
+  
+  .navbar .socials {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .navbar .links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navbar .links li {
+    list-style: none;
+  }
+  
+  .navbar .links li a {
+    color: var(--pure-white);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar .links li a:hover {
+    color: var(--bright-green);
+  } */
+  
+
+   /* @import"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700;900&display=swap";
+   
+   .navbar {
+    width: 100%;
+    max-width: 100vw;
+    background: var(--dark-blue);
+    color: var(--pure-white);
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 var(--side-padding)
+}
+
+.navbar a {
+    color: #fff;
+    font-weight: 500
+}
+
+.navbar .content {
+    max-width: var(--content-width);
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.navbar .content .logo {
+    width: 100px;
+    margin-right: 50px
+}
+
+.navbar .content .socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    margin-right: 50px
+}
+
+.navbar .content .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-left: auto;
+    flex: 1;
+    max-width: 650px
+} */

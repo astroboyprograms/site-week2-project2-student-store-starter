@@ -1,0 +1,32 @@
+:root {
+    --side-padding: 40px;
+    --content-width: 1100px;
+    --dark-blue: #2c4047;
+    --bright-green: #00c385;
+    --pure-white: #fff;
+    --grey-bg: #f7f7f7;
+    --accent-orange: #ff9017;
+    --bright-red: #fe3210;
+    --muted: #969696;
+    --font-dark: #212121;
+    --font-light: #5b5b5b;
+    --border-color: #e4e4e4;
+    --star-color-filled: #e5a800;
+    --star-color-empty: #cbd4e6;
+  }
+  
+  div {
+    text-align: center;
+    padding: var(--side-padding);
+    color: var(--font-dark);
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+  
