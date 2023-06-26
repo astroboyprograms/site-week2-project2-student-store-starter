@@ -1,3 +1,8 @@
+<a href="https://www.loom.com/share/b0da2d135a344caaa457d81c43e5c1d6">
+    <p>Student Store - 23 June 2023 - Watch Video</p>
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/b0da2d135a344caaa457d81c43e5c1d6-with-play.gif">
+  </a>
+
 # Student Store Project
 
 Selling merchandise in the modern era requires digital solutions. For this project, you'll be tasked with designing and constructing an online student store for the College of CodePath. The web app consists of a frontend user interface for potential customers to browse available goods and a backend API to handle data management. The API will be built with Node and Express, and the UI will be built with React.
@@ -12,10 +17,6 @@ Check out our [deployed Student Store](https://codepath-student-store-demo.surge
 
 ## *Week 2* Application Features
 
-<a href="https://www.loom.com/share/ba079a37fd6f49498d013aaaa6050445">
-    <p>Student Store - 20 June 2023 - Watch Video</p>
-    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/ba079a37fd6f49498d013aaaa6050445-with-play.gif">
-  </a>
 
 ### Core Features
 
@@ -37,7 +38,7 @@ Check out our [deployed Student Store](https://codepath-student-store-demo.surge
 
 ### Core Features
 
-- [ ] User can click to expand the shopping cart in the left navigation.
+- [ x ] User can click to expand the shopping cart in the left navigation.
 - [ ] Users can click the '+' button on a product cart to increment that product in the shopping cart.
 - [ ] Users can click the '-' button on a product cart to decrement that product in the shopping cart. If the count is zero, the product should be removed from the cart.
 - [ ] The shopping cart displays a table of products, quantities, subtotal, tax, and total.
